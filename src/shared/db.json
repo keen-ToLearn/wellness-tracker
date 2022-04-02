@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "uid": 0,
+      "uname": "Vaatu",
+      "upass": "de5trukt10n",
+      "uloggedin": false,
+      "id": 0
+    },
+    {
+      "uid": 1,
+      "uname": "Raavaa",
+      "upass": "l1ght",
+      "uloggedin": false,
+      "id": 1
+    }
+  ],
+  "records": [
+    {
+      "id": 0,
+      "uid": 0,
+      "rdate": "3/31/2022, 10:26:15 PM",
+      "rfever": "40.5",
+      "rcold": true,
+      "rcough": false,
+      "rheight": "156",
+      "rweight": "60.9",
+      "rother": "Runny nose, throat pain"
+    },
+    {
+      "id": 1,
+      "uid": 0,
+      "rdate": "4/4/2022, 10:05:15 AM",
+      "rfever": "",
+      "rcold": false,
+      "rcough": false,
+      "rheight": "",
+      "rweight": "62",
+      "rother": ""
+    },
+    {
+      "id": 2,
+      "uid": 1,
+      "rdate": "3/31/2022, 7:26:45 AM",
+      "rfever": "39.5",
+      "rcold": false,
+      "rcough": true,
+      "rheight": "173",
+      "rweight": "72",
+      "rother": "Pain in knee joints"
+    },
+    {
+      "id": 3,
+      "uid": 1,
+      "rdate": "4/2/2022, 3:30:25 PM",
+      "rfever": "",
+      "rcold": false,
+      "rcough": false,
+      "rheight": "173",
+      "rweight": "70.5",
+      "rother": ""
+    },
+    {
+      "uid": 1,
+      "rdate": "4/2/2022, 1:50:33 AM",
+      "rfever": "40.2",
+      "rcold": true,
+      "rcough": true,
+      "rheight": "",
+      "rweight": "",
+      "rother": "Intense Body Pain",
+      "id": 4
+    },
+    {
+      "uid": 0,
+      "rdate": "4/2/2022, 1:56:38 AM",
+      "rfever": "",
+      "rcold": false,
+      "rcough": true,
+      "rheight": "",
+      "rweight": "63",
+      "rother": "Dry cough especially in the morning",
+      "id": 5
+    },
+    {
+      "uid": 1,
+      "rdate": "4/2/2022, 8:33:57 PM",
+      "rfever": "38",
+      "rcold": false,
+      "rcough": false,
+      "rheight": "",
+      "rweight": "69",
+      "rother": "Signifant weight loss. Also, pain in the left ear",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+export const USERS_LOADING = 'USERS_LOADING';
+export const USERS_FAILED = 'USERS_FAILED';
+export const USERS_ADD = 'USERS_ADD';
+export const USERS_REGLOGGING = 'USERS_REGLOGGING';
+export const USERS_REGLOG = 'USERS_REGLOG';
+
+export const RECORDS_LOADING = 'RECORDS_LOADING';
+export const RECORDS_FAILED = 'RECORDS_FAILED';
+export const RECORDS_ADD = 'RECORDS_ADD';
+export const RECORDS_POSTING = 'RECORDS_POSTING';
+export const RECORDS_POST = 'RECORDS_POST';
