@@ -45,7 +45,7 @@ const LoginRegisterForm = ({ lor, history, usersRegister, usersLoginout, newUser
                         upass : users[i].upass,
                         uloggedin : true
                     };
-                    usersLoginout(users[i].id, loginUser);
+                    usersLoginout(users[i]._id, loginUser);
                     break;
                 }
         }
@@ -122,7 +122,7 @@ class Welcome extends Component{
                                             </Box>
                                             <TabPanel value='1'>
                                                 <LoginRegisterForm lor={this.state.activeTab} history={this.props.history} usersRegister={this.props.usersRegister}
-                                                    newUserId={this.props.users.users.length}/>
+                                                    newUserId={this.props.users.users.length} users={this.props.users.users}/>
                                             </TabPanel>
                                             <TabPanel value='2'>
                                                 <LoginRegisterForm lor={this.state.activeTab} history={this.props.history} usersLoginout={this.props.usersLoginout}

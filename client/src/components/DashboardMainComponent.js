@@ -21,7 +21,7 @@ const Header = ({ usersLoginout, history, userIn, recordsPost }) => {
             upass : userIn.upass,
             uloggedin : false
         };
-        usersLoginout(userIn.id, logoutUser);
+        usersLoginout(userIn._id, logoutUser);
         history.push('/welcome');
     }
 
